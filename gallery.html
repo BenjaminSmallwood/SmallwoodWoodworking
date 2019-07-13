@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Smallwood Woodworking</title>
+    <meta name="description" content="View a gallery of some of our best pieces or to get inspiration for something you might want.">
+    <meta name="keywords" content="Woodworking, craftsman, carpentry, cabinets, kitchen, table, vanity, builtin">
+</head>
+
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="img/greenTree.svg" alt="Tree Logo" id="logo">
+            <div id="headers">
+                <h1 id="logoText-1">Smallwood</h1>
+                <h1 id="logoText-2">Woodworking</h1>
+            </div>
+        </div>
+        <nav id="header-nav" class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+        </nav>
+    </header>
+    <main id="gallery-main">
+        <h1>Select a tab to filter selected pictures.</h1>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('builtin')"> Built-in</button>
+            <button class="btn" onclick="filterSelection('door')"> Doors</button>
+            <button class="btn" onclick="filterSelection('kitchen')"> Kitchens</button>
+            <button class="btn" onclick="filterSelection('mantel')"> Mantels</button>
+            <button class="btn" onclick="filterSelection('table')"> Tables</button>
+            <button class="btn" onclick="filterSelection('vanity')"> Vanities</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-1.jpg"><img src="img\galleryImages\builtin-1-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-2.jpg"><img src="img\galleryImages\builtin-2-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-3.jpg"><img src="img\galleryImages\builtin-3-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-4.jpg"><img src="img\galleryImages\builtin-4-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-5.jpg"><img src="img\galleryImages\builtin-5-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-6.jpg"><img src="img\galleryImages\builtin-6-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-7.jpg"><img src="img\galleryImages\builtin-7-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column builtin">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\builtin-8.jpg"><img src="img\galleryImages\builtin-8-thumb.jpg" alt="Builtin"></a>
+                </div>
+            </div>
+            <div class="column door">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\door-1.jpg"><img src="img\galleryImages\door-1-thumb.jpg" alt="Door"></a>
+                </div>
+            </div>
+            <div class="column door">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\door-5.jpg"><img src="img\galleryImages\door-5-thumb.jpg" alt="Door"></a>
+                </div>
+            </div>
+            <div class="column door">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\door-6.jpg"><img src="img\galleryImages\door-6-thumb.jpg" alt="Door"></a>
+                </div>
+            </div>
+            <div class="column door">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\door-7.jpg"><img src="img\galleryImages\door-7-thumb.jpg" alt="Door"></a>
+                </div>
+            </div>
+            <div class="column door">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\door-8.jpg"><img src="img\galleryImages\door-8-thumb.jpg" alt="Door"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-1.jpg"><img src="img\galleryImages\kitchen-1-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-2.jpg"><img src="img\galleryImages\kitchen-2-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-3.jpg"><img src="img\galleryImages\kitchen-3-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-4.jpg"><img src="img\galleryImages\kitchen-4-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-5.jpg"><img src="img\galleryImages\kitchen-5-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-6.jpg"><img src="img\galleryImages\kitchen-6-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-7.jpg"><img src="img\galleryImages\kitchen-7-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-8.jpg"><img src="img\galleryImages\kitchen-8-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-9.jpg"><img src="img\galleryImages\kitchen-9-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-10.jpg"><img src="img\galleryImages\kitchen-10-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-11.jpg"><img src="img\galleryImages\kitchen-11-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-12.jpg"><img src="img\galleryImages\kitchen-12-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-13.jpg"><img src="img\galleryImages\kitchen-13-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-14.jpg"><img src="img\galleryImages\kitchen-14-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-15.jpg"><img src="img\galleryImages\kitchen-15-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-16.jpg"><img src="img\galleryImages\kitchen-16-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-18.jpg"><img src="img\galleryImages\kitchen-18-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-19.jpg"><img src="img\galleryImages\kitchen-19-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-20.jpg"><img src="img\galleryImages\kitchen-20-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-21.jpg"><img src="img\galleryImages\kitchen-21-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-22.jpg"><img src="img\galleryImages\kitchen-22-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column kitchen">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\kitchen-23.jpg"><img src="img\galleryImages\kitchen-23-thumb.jpg" alt="Kitchen"></a>
+                </div>
+            </div>
+            <div class="column mantel">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\mantel-1.jpg"><img src="img\galleryImages\mantel-1-thumb.jpg" alt="mantel"></a>
+                </div>
+            </div>
+            <div class="column mantel">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\mantel-2.jpg"><img src="img\galleryImages\mantel-2-thumb.jpg" alt="mantel"></a>
+                </div>
+            </div>
+            <div class="column mantel">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\mantel-2.jpg"><img src="img\galleryImages\mantel-2-thumb.jpg" alt="mantel"></a>
+                </div>
+            </div>
+            <div class="column table">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\table-1.jpg"><img src="img\galleryImages\table-1-thumb.jpg" alt="table"></a>
+                </div>
+            </div>
+            <div class="column table">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\table-2.jpg"><img src="img\galleryImages\table-2-thumb.jpg" alt="table"></a>
+                </div>
+            </div>
+            <div class="column table">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\table-2.jpg"><img src="img\galleryImages\table-2-thumb.jpg" alt="table"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-1.jpg"><img src="img\galleryImages\vanity-1.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-2.jpg"><img src="img\galleryImages\vanity-2.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-3.jpg"><img src="img\galleryImages\vanity-3.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-4.jpg"><img src="img\galleryImages\vanity-4.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-5.jpg"><img src="img\galleryImages\vanity-5.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-7.jpg"><img src="img\galleryImages\vanity-7.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-8.jpg"><img src="img\galleryImages\vanity-8.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-9.jpg"><img src="img\galleryImages\vanity-9.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-10.jpg"><img src="img\galleryImages\vanity-10.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-11.jpg"><img src="img\galleryImages\vanity-11.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-12.jpg"><img src="img\galleryImages\vanity-12.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-13.jpg"><img src="img\galleryImages\vanity-13.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-14.jpg"><img src="img\galleryImages\vanity-14.jpg" alt="vanity"></a>
+                </div>
+            </div>
+            <div class="column vanity">
+                <div class="content">
+                    <a target="_blank" href="img\galleryImages\vanity-15.jpg"><img src="img\galleryImages\vanity-15.jpg" alt="vanity"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="media-buttons">
+            <a href="https://www.facebook.com/Smallwoodwoodworking/" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/bruce-smallwood-97b3982b/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/smallwoodwoodworking/" class="fa fa-instagram"></a>
+        </div>
+        <p>Contact us at <b>brucesmallwoodcabinets@gmail.com</b> or call at <b>540-336-9604</b>.</p>
+    </footer>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
